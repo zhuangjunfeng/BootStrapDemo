@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/module.css">
+	<title>编辑设备</title>
+</head>
+<body>
+	<header>
+		<div class="row">
+			<div class="col-xs-2">
+				<h2>公车管理系统</h2>
+			</div>
+			<div class="col-xs-10"></div>
+		</div>
+	</header>
+	<!-- 页面主体 -->
+	<div class="main">
+		<div class="row">
+			<div class="col-xs-2">
+				<ul class="nav nav-pills nav-stacked" role="tablist">
+					<li>
+						<a href="#">用户管理</a>
+					</li>
+					<li class="active">
+						<a href="#">设备管理</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-10">
+				<div class="col-sm-12">
+					<h3>编辑设备</h3>
+					<form action="/add">
+						<div class="input-group col-sm-4">
+							<label  class="input-group-addon">设备型号：</label>
+							<input type="text" class="form-control" placeholder="请输入设备型号"></div>
+						<br>
+						<div class="input-group col-sm-4">
+							<label  class="input-group-addon">设备归属：</label>
+							<input type="text" class="form-control" placeholder="请输入设备归属人"></div>
+						<br>
+						<div class="input-group col-sm-4">
+							<label  class="input-group-addon">设备类型：</label>
+							<input type="text" class="form-control" placeholder="请输入设备归属人"></div>
+						<br>
+						<div class="input-group col-sm-4">
+							<label class="input-group-addon">设备详情：</label>
+							<textarea  class="form-control" placeholder="请输入设备归属人"></textarea>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

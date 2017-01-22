@@ -1,0 +1,55 @@
+* {
+    font-family: FangSong_GB2312;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-xs-2,
+.main .col-xs-10,
+.col-sm-12 {
+    padding: 0;
+}
+
+h3 {
+    margin-top: 0;
+    padding-top: 5px;
+    border-top: 2px solid #428bca;
+}
+
+.col-sm-12 {
+    margin-top: 20px;
+}
+
+.input-group-addon {
+    background-color: transparent;
+    border: none;
+}
+
+
+/*Head*/
+
+header {
+    background-color: #091513;
+}
+
+header h2 {
+    color: #fff;
+}
+
+.nav-pills {
+    margin-right: 10px;
+    height: 575px;
+    background-color: #eaedf3;
+}
+
+
+/*End Head*/
+
+
+/*Main*/
+
+.main {
+    margin-top: 5px;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/module.css">
+    <title>设备管理</title>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-xs-2">
+                <h2>公车管理系统</h2>
+            </div>
+            <div class="col-xs-10"></div>
+        </div>
+    </header>
+    <!-- 页面主体 -->
+    <div class="main">
+        <div class="row">
+            <div class="col-xs-2">
+                <ul class="nav nav-pills nav-stacked" role="tablist">
+                    <li>
+                        <a href="#">用户管理</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">设备管理</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-10">
+                <div>
+                    <h3>设备管理</h3>
+                    <div>
+                        <div class="col-sm-4">
+                            <label class="control-label">设备型号：</label>
+                            <input type="text" class="form-control" placeholder="请输入设备型号">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class=" control-label">设备归属：</label>
+                            <input type="text" class="form-control" placeholder="请输入设备归属人">
+                        </div>
+                        <div class="col-sm-4">
+                            <br>
+                            <a href="#" class="btn btn-info">查询</a>
+                            <a href="#" class="btn btn-info" data-toggle="modal" data-target="#add">新增</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-sm-12">
+                        <h3>设备列表</h3>
+                        <table class="table table-striped">
+                            <tr>
+                                <th>设备ID</th>
+                                <th>设备型号</th>
+                                <th>设备归属</th>
+                                <th>操&nbsp;&nbsp;作</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>6</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>8</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>9</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>10</td>
+                                <td>张三</td>
+                                <td>
+                                    <a href="#">编辑</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <ul class="pagination">
+                        <li class="disabled">
+                            <a href="#">&laquo;</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li class="disabled">
+                            <a href="#">&raquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <!-- 模态窗 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">删除设备</h4>
+                </div>
+                <div class="modal-body">确认删除此设备？</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">确认</button>
+                </div>
+            </div>
+        </div>
+        <!-- 新增设备模态窗 -->
+    </div>
+    <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">新增设备</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <span class="input-group-addon">设备型号</span>
+                        <input type="text" class="form-control " placeholder="请输入设备型号">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">设备归属</span>
+                        <input type="text" class="form-control" placeholder="请输入设备归属">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
